@@ -1,0 +1,36 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* Debug */
+  background-color: lightgray;
+  /* End */
+}
+
+div {
+  border: 1px solid chocolate;
+}
+
+
+/* Navigation */
+
+.top-navigation {
+  background-color: #fff;
+}
+
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.top-navigation > .content img {
+  height: 70px;
+}
+
+.top-navigation .links {
+  float: right;
+}
