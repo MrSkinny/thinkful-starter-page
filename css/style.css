@@ -1,12 +1,14 @@
 
 * {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
   /* Debug */
   background-color: lightgray;
   /* End */
+
 }
 
 div {
@@ -33,4 +35,18 @@ div {
 
 .top-navigation .links {
   float: right;
+}
+
+.top-navigation .links > .active {
+  color: #4c5058;
+  font-weight: 500;
+}
+
+.top-navigation .links li {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;  
+  margin: 0.5rem 0 0 1.1rem;
 }
