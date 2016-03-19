@@ -12,12 +12,14 @@ html {
 body {
   /* Debug */
   background-color: lightgray;
-  /* End */
+  /* Debug End */
 
 }
 
 div {
+  /* Debug */
   border: 1px solid chocolate;
+  /* Debug End */
 }
 
 a {
