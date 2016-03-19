@@ -12,8 +12,9 @@ html {
 
 body {
   /* Debug */
-  background-color: lightgray;
+  /*background-color: lightgray;*/
   /* Debug End */
+  margin: 0;
 }
 
 section {
@@ -130,6 +131,7 @@ a {
 
 .cases {
   background-color: white;
+  padding-bottom: 5rem;
 }
 
 .cases .content {
@@ -151,4 +153,59 @@ a {
 .cases .devices .caption {
   font-size: 1.55rem;
   margin-top: 2rem;
+}
+
+/**************/
+/*** SOCIAL ***/
+/**************/
+
+.social {
+  background-color: white;
+  text-align: center;
+  padding: 0 0 5rem 0;
+}
+
+.social .content {
+  margin: 0 auto;
+}
+
+.social hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+}
+
+.social h5 {
+  font-size: 1.05rem;
+  font-weight: 400;
+}
+
+.social ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social .icons > li {
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin: 0.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+}
+
+.social .copy {
+  margin: 2.5rem;
+  font-weight: 185;
+  color: lightgray;
+}
+
+.fa-twitter {
+  color: darkcyan;
+}
+
+.fa-facebook {
+  color: darkblue
 }
