@@ -1,7 +1,11 @@
 
-* {
+html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -13,6 +17,11 @@ body {
 
 div {
   border: 1px solid chocolate;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 
@@ -49,4 +58,9 @@ div {
   color: #838994;
   letter-spacing: 0.03em;  
   margin: 0.5rem 0 0 1.1rem;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
 }
