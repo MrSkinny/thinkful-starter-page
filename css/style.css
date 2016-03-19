@@ -24,17 +24,21 @@ a {
   text-decoration: inherit;
 }
 
+.content {
+  width: 970px;
+  margin: 0 auto;
+}
 
-/* Navigation */
+/**********************/
+/* Navigation Section */
+/**********************/
 
 .top-navigation {
   background-color: #fff;
 }
 
 .top-navigation > .content {
-  width: 970px;
   height: 70px;
-  margin: 0 auto;
   padding: 0 15px;
 }
 
@@ -63,4 +67,20 @@ a {
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+
+/************************/
+/* Introduction Section */
+/************************/
+
+.introduction {
+  background-image: url('../images/background.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+}
+
+.introduction .content {
+  color: white;
 }
