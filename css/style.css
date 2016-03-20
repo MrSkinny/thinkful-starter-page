@@ -7,7 +7,6 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
-  overflow: auto;
 }
 
 body {
@@ -89,6 +88,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   height: 45.938rem;
+  overflow: auto;
 }
 
 .introduction .content {
@@ -145,6 +145,10 @@ a {
   margin-top: 8rem;
 }
 
+.cases .content ul {
+  list-style-type: none;
+}
+
 .cases .devices > li {
   width: 33%;
   float: left;
@@ -166,7 +170,7 @@ a {
 }
 
 .social .content {
-  margin: 0 auto;
+  margin: 14rem auto;
 }
 
 .social hr {
