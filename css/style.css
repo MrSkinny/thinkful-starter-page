@@ -119,6 +119,7 @@ a {
   padding: 1rem 1.5rem;
   color: white;
   font-size: 1.125rem;
+  cursor: pointer;
 }
 
 .introduction button:hover {
